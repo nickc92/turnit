@@ -9,6 +9,6 @@ setup(name='turnit',
       author_email='nickcholy@gmail.com',
       license='MIT',
       packages=['turnit'],
-      install_requires=['matplotlib', 'scipy', 'numpy', 'stl', 'rtree'],
+      install_requires=['matplotlib', 'scipy', 'numpy', 'numpy-stl', 'rtree'],
       scripts=['bin/turnit'],
       zip_safe=False)
