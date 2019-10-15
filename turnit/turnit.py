@@ -19,6 +19,7 @@ import scipy.optimize
 
 def turnIt():
     root = tk.Tk()
+    root.title('Turnit')
 
     # critical angle; facets more overhung than this angle will require support;
     # an angle of 0 means _all_ faces with an outward normal that points at all downward
